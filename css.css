@@ -1,0 +1,102 @@
+/*Eligibility page css*/
+.eligibility{
+    background-color:rgb(221, 239, 255);
+    padding: 10px;
+}
+.eli_h{
+    font-weight: bold;
+    text-align: center;
+    color:  #fff;
+    background-color: rgb(149, 85, 0);
+}
+.eli-p{
+     text-align: center;
+}
+
+
+/*rules page css*/
+.rules{
+    background-color:rgb(221, 239, 255);
+}
+
+.rules_h{
+     font-weight: bold;
+     text-align: center;
+     color:rgb(149, 85, 0)
+}
+
+.rules_bar{
+    text-align: center;
+}
+
+.rules b{
+    font-size: 17px;
+}
+
+
+/*Tuition fee page css*/
+.tui_table {
+    position: absolute;
+    left: 50%;
+    top:  80%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    width: 900px;
+    height: 200px;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tui_table tr {
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+
+.tui_table th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+#tui_tr {
+    background-color: rgb(221, 239, 255);
+    color: black;
+}
+
+.tui_cap{
+    font-weight: 32px;
+    text-align: center;
+    background-color:  rgb(221, 239, 255);
+    color: rgb(149, 85, 0);
+    padding: 10px 0px;
+}
+.tui_table tr:hover {
+    background-color: #955500;
+    transform: scale(1.02);
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/*Responsive css*/
+@media only screen and (max-width: 768px) {
+    .rules{
+        width:99%;
+        text-align: justify;
+        padding: 25px 50px 75px 100px;
+       }
+   .rules b{
+        direction: ltr;
+       }
+
+    .tui_table {
+        width:95%;
+    }
+    .eligibility{
+        width: 97%;
+        text-align: justify;
+        padding:5px;
+    }
+}

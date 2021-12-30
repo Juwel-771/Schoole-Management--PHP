@@ -1,0 +1,22 @@
+.head h1 {
+    text-align: center;
+    height: 200px;
+    background-color: #555555;
+    color: #ffffff;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.notice {
+    background-color: whitesmoke;
+}
+
+.notice h1 {
+    font-size: 30px;
+}
+
+.notice p {
+    color: #000000;
+}

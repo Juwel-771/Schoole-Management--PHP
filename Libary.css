@@ -1,0 +1,16 @@
+
+.font{
+    font-family: "Gill Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+    color: rgb(2, 2, 2);
+}
+.img{
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
